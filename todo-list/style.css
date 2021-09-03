@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 4px 4px 6px;
+}
+
+.new-task {
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid white;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.new-task:hover, .new-task:focus {
+    box-shadow: 5px 5px 20px white;
+}
+
+.add-task {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(235, 157, 190);
+    transition: all 0.3s ease;
+}
+
+.add-task:hover {
+    border-color:  rgb(238,174,202);
+    color: rgb(238,174,202);
+    background-color: white;
+}
+
+.new-task-text {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 7px;
+    width: 85%;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.todo-tasks{
+    width: 70%;
+    margin: 0 auto;
+    border: 3px solid white;
+    margin-top: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.todo-text {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+.clear {
+    border: none;
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(238, 78, 147);
+    transition: all 0.3s ease;
+}
+
+.clear:hover {
+    border-color:  rgb(238, 78, 147);
+    color: rgb(238, 78, 147);
+    background-color: white;
+}
+
+.first-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+@media all and (max-width: 768px){
+    .todo-tasks {
+        width: 92%;
+    }
+    .new-task {
+        width: 92%;
+    }
+    .new-task-text {
+        margin-right: 5px;
+    }
+}
