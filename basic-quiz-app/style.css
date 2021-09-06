@@ -76,3 +76,9 @@ button:hover {
     margin-top: 20px;
     color: green;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
