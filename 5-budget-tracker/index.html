@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/781/781760.png">
+    <title>Budget Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">
+                Budget Tracker
+            </h1>
+        </header>
+
+        <section class="section section-1">
+            <div class="budget-amount">
+                <h3 class="budget-title">Please Enter Your Budget</h3>
+                <input class="budget-input-text" type="number" required>
+            </div>
+            <div class="budget-btn">
+                <button class="calculate-btn">Calculate</button>
+            </div>
+        </section>
+
+        <section class="section section-2">
+            <div class="budget">
+                <h4>BUDGET</h4>
+                <i class="fas fa-wallet fa-3x"></i>
+                <h4 class="green-color budget-value"><span class="green-color">&#x20BA;</span></h4>
+            </div>
+            <div class="expense">
+                <h4>EXPENSES</h4>
+                <i class="far fa-credit-card fa-3x"></i>
+                <h4 class="expense-color expense-value"><span class="expense-color">&#x20BA;</span></h4>
+            </div>
+            <div class="balance">
+                <h4>BALANCE</h4>
+                <i class="fas fa-lira-sign fa-3x"></i>
+                <h4 class="green-color balance-value"><span class="green-color">&#x20BA;</span></h4>
+            </div>
+        </section>
+
+        <section class="section section-3">
+            <div class="expense-input">
+                <h3 class="expense-input-title">Please Enter Your Expense</h3>
+                <input class="expense-input-text" type="text">
+            </div>
+            <div class="expense-amount">
+                <h3 class="expense-amount-title">Please Enter Your Amount</h3>
+                <input class="expense-amount-input-text" type="number">
+            </div>
+            <div class="expense-btn">
+                <button class="add-expense-btn">Add Expense</button>
+            </div>
+        </section>
+
+        <section class="section section-4">
+            <div class="expense-title">
+                <span>Expense Title</span>
+                <span>Expense Value</span>
+                <span>Delete</span>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #DFCFBE;
+}
+
+h3, h4, span {
+    color: #333;
+}
+
+.container {
+    max-width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    width: 100%;
+}
+
+.main-title {
+    text-shadow: 
+        0.025em 0.025em 0 yellow,
+        0.05em 0.05em 0 blue,
+        0.075em 0.075em 0 red,
+        0.1em 0.1em 0 black;
+    color: #ee6352;
+}
+
+.section {
+    width: 45%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.budget-btn button {
+    padding: 12px 16px;
+    color: white;
+    border: 1px solid #18CF69;
+    border-radius: 18px;
+    background-color: #18CF69;
+    transition: all 0.4s ease;
+}
+
+.budget-btn button:hover {
+    background-color: white;
+    color: #18CF69;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #18CF69;
+}
+
+.section-3, .section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 0.8em;
+}
+
+.expense-input-title, .expense-amount-title, .budget-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.4em;
+}
+
+.expense-input-text, .expense-amount-input-text, .budget-input-text {
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 1.2rem;
+    margin-bottom: 0.8em;
+}
+
+.expense-btn button {
+    padding: 12px 16px;
+    color: white;
+    border: 1px solid #F04143;
+    border-radius: 18px;
+    background-color: #F04143;
+    transition: all 0.4s ease;
+}
+
+.expense-btn button:hover {
+    background-color: white;
+    color: #F04143;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #F04143;
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.budget, .expense, .balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 h4 {
+    font-size: 1.3rem;
+}
+
+.section-2 i {
+    margin: 0.3em 0;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+.expense-title, .new-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.section-4 button, .section-4 span {
+    margin-top: 0.8em;
+}
+
+.delete-btn {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #F04143;
+    background-color: #F04143;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.delete-btn:hover {
+    background-color: white;
+    color: #F04143;
+}
+
+.expense-color {
+    color: #F04143;
+}
+
+.green-color {
+    color: #18CF69;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        width: 90%;
+    }
+    .container {
+        justify-content: center;
+    }
+    .header {
+        order: 1;
+    }
+    .section-1 {
+        order: 2;
+    }
+    .section-3 {
+        order: 3;
+        margin-top: -6em;
+    }
+    .section-2 {
+        order: 4;
+        margin-top: -5em;
+    }
+    .section-4 {
+        order: 5;
+        margin-top: -3em;
+        max-height: 20%;
+    }
+    .expense-title, .new-item {
+        font-size: 1rem;
+    }
+}
