@@ -10,6 +10,9 @@
 
 - 5-Budget Tracker [https://serdargokhan-budget-tracker.netlify.app/](https://serdargokhan-budget-tracker.netlify.app/)
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=serdargokhan)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/serdarrgokhann" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="serdarrgokhann" height="30" width="40" /></a>
