@@ -10,8 +10,8 @@
 
 - 5-Budget Tracker [https://serdargokhan-budget-tracker.netlify.app/](https://serdargokhan-budget-tracker.netlify.app/)
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=serdargokhan&show_icons=truetheme=radical)
-)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=serdargokhan&show_icons=truetheme=dark)
+
 
 
 
