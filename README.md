@@ -1,14 +1,14 @@
 <h1 align="center">🧑‍💻 Javascript Projects</h1>
 
-- 1-Weather Web App [https://serdargokhan-weather-app.netlify.app/](https://serdargokhan-weather-app.netlify.app/)
+-  [1-Weather Web App](https://serdargokhan-weather-app.netlify.app/)
 
-- 2-Todo List [https://serdargokhan-todo-app.netlify.app/](https://serdargokhan-todo-app.netlify.app/)
+-  [2-Todo List](https://serdargokhan-todo-app.netlify.app/)
 
-- 3-Basic Quiz App [https://serdargokhan-quiz-app.netlify.app/](https://serdargokhan-quiz-app.netlify.app/)
+-  [3-Basic Quiz App](https://serdargokhan-quiz-app.netlify.app/)
 
-- 4-Movie App [https://serdargokhan-movie-app.netlify.app/](https://serdargokhan-movie-app.netlify.app/)
+-  [4-Movie App](https://serdargokhan-movie-app.netlify.app/)
 
-- 5-Budget Tracker [https://serdargokhan-budget-tracker.netlify.app/](https://serdargokhan-budget-tracker.netlify.app/)
+-  [5-Budget Tracker](https://serdargokhan-budget-tracker.netlify.app/)
 
 
 
